@@ -33,8 +33,6 @@ The goal is to stop building things on a hunch, because someone important asked,
 3. Open Claude Code in that folder — it picks up the file automatically
 4. Start working
 
-If you use claude.ai instead of Claude Code: paste the file contents as your first message.
-
 ---
 
 ## Tools you need
