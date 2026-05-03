@@ -51,8 +51,3 @@ Claude Code, a text editor, and this repo. That is it.
 
 Add a template by opening a PR with the file in `templates/`, a row in the table above, and at least one filled-in example in a comment block at the bottom of the template.
 
----
-
-## License
-
-MIT.
