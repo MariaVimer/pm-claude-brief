@@ -194,5 +194,5 @@ What you do not need: a plugin, a Project, a database, a SaaS tool, an MCP serve
 **Skill name**: `pm-brief`
 **Category**: Productivity / Product Management
 **Trigger phrases**: "start a brief", "load context", "pm brief", "help me write a CLAUDE.md", "set up context for", "/pm-brief"
-**Author**: see repo README
-**Repo**: see repo README
+**Author**: MariaVimer
+**Repo**: https://github.com/MariaVimer/pm-claude-brief
