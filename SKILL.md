@@ -1,8 +1,8 @@
-# PM Brief — Context-First AI Collaboration for Product Managers
+# A way to build the right thing
 
 ## What this skill does
 
-When you invoke `/pm-brief`, Claude walks you through loading structured context before any PM work begins. It enforces the discipline of "brief before prompt" — the habit that separates a PM who ships the right things from one who ships things efficiently for no good reason.
+When you invoke `/pm-brief`, Claude walks you through loading context before any work starts. It makes you answer whether you should be doing the work at all before helping you do it.
 
 The skill works in two modes:
 - **Start a session**: populate a CLAUDE.md from a template for your current problem type
@@ -12,11 +12,9 @@ The skill works in two modes:
 
 ## Why this exists
 
-Most PMs use Claude the way they use Google — a quick question, a generic answer. The problem is not Claude's capability; it is missing context. Claude does not know your product, your market, your users, or what actually constitutes value in your specific situation. Without that context, every response is generic.
+Most PMs prompt Claude the way they Google something — a quick question, a generic answer. The missing piece is not capability, it is context. Claude does not know your product, your market, or what actually counts as value in your situation.
 
-But there is a deeper problem than missing context. A PM can write a complete, well-structured brief for the wrong thing. A brief that loads context efficiently does not prevent you from building something nobody needs, building something because an executive requested it, or shipping something with no way to know afterward whether it worked.
-
-This skill is designed to fix both problems. It forces context before prompting. It also challenges the premise of the work before any work begins.
+But loading context is only half the problem. A PM can write a complete, detailed brief for the wrong thing. This skill is designed to catch both: it makes you load context, and it challenges whether the work is worth doing before any of it begins.
 
 ---
 

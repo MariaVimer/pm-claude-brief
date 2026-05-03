@@ -1,82 +1,60 @@
-# PM Claude Brief — Templates & Discipline for Product Managers
+# A way to build the right thing
 
-A GitHub repo of CLAUDE.md templates for product managers, organized by problem type. Drop the relevant template in your project folder, fill it in, and Claude has the context it needs to do useful work.
-
----
-
-## The problem this solves
-
-Claude is capable. The bottleneck is not the model — it is missing context. When a PM opens a new session without loading context, Claude defaults to generic advice. It does not know your product, your users, your constraints, or the decisions already made. The output looks professional and is largely useless.
-
-The fix is simple: a CLAUDE.md file that loads context automatically. Claude Code reads it at session start. You never have to paste the same background paragraph twice.
+Templates for PMs working with Claude. Before Claude helps you write a spec, rank a backlog, or plan a launch, it makes you answer whether you should be doing it at all.
 
 ---
 
-## Why templates + a skill, not a plugin or Project
+## What this is
 
-The plugin/Project route builds a dependency. You need a setup, a server, or a SaaS account. It is the right call if you are building a tool for a team of 50. It is overkill if you are one PM trying to develop a better habit.
+Five CLAUDE.md templates, one per common PM problem type. You copy the right one into your project folder, fill it in, and Claude loads it automatically when you start a session.
 
-Templates + a skill work at a different surface area:
+The templates ask harder questions than most briefs do: what is your hypothesis, what evidence do you have, who specifically has this problem, what does success look like in 90 days. If your answers are thin, Claude will say so before doing any work.
 
-- **Templates** are portable context. A CLAUDE.md is a markdown file. It lives in a folder, gets committed alongside your work, and can be shared as a Slack snippet or a Notion block. No tool required to read it.
-- **The skill** encodes the meta-discipline. It teaches the brief-writing habit — how to populate the template, what questions to answer before prompting, what a good output spec looks like. That habit transfers even if you switch tools.
-- **Low ceremony = high adoption.** A PM who will not install a plugin will copy a markdown file. The bar matters.
-
-If you later want to build this into a team tool with a UI, a database, and a shared context library, the templates become the schema. You have not locked yourself into anything.
+The goal is to stop building things because someone important asked for them and start building things because there is a real problem worth solving.
 
 ---
 
-## Tech stack recommendation
-
-You do not need new tools to use this repo.
-
-| Tool | Purpose | Notes |
-|------|---------|-------|
-| **Claude Code** (CLI) | Primary interface | CLAUDE.md in your project folder loads automatically at session start |
-| **GitHub** | Template library | Fork this repo, customize templates to your product/company, share the fork with your team |
-| **Plain markdown** | Everything | Works in VS Code, Obsidian, Notion, GitHub, and everywhere else |
-| **VS Code or Cursor** | Editing briefs + work | Edit your CLAUDE.md alongside deliverables in the same window |
-| **Obsidian** (optional) | Personal context library | Accumulate notes about your product, users, and strategic context over time; pull relevant sections into CLAUDE.md when starting new work |
-
-**What you do not need**: a plugin, a Project, an MCP server, a database, a SaaS tool, or automation. The discipline is the system.
-
-If you are not using Claude Code and are using claude.ai instead: paste your CLAUDE.md contents as the first message in each session, prefixed with "Before we begin, here is the session context:"
-
----
-
-## Template index
+## Templates
 
 | Template | Use when |
 |----------|---------|
-| [`templates/discovery.md`](templates/discovery.md) | User research, problem framing, opportunity sizing, JTBD |
-| [`templates/prioritization.md`](templates/prioritization.md) | Ranking features, backlog grooming, roadmap tradeoffs, RICE/ICE |
-| [`templates/gtm.md`](templates/gtm.md) | Launch planning, positioning, pricing, channel strategy, enablement |
-| [`templates/build-vs-buy.md`](templates/build-vs-buy.md) | Vendor evaluation, make-or-buy decisions, partnership analysis |
+| [`templates/discovery.md`](templates/discovery.md) | User research, problem framing, opportunity sizing |
+| [`templates/prioritization.md`](templates/prioritization.md) | Ranking features, backlog tradeoffs, roadmap decisions |
+| [`templates/gtm.md`](templates/gtm.md) | Launch planning, positioning, pricing, enablement |
+| [`templates/build-vs-buy.md`](templates/build-vs-buy.md) | Vendor evaluation, make-or-buy decisions |
 | [`templates/roadmap.md`](templates/roadmap.md) | Roadmap narrative, stakeholder alignment, planning cycles |
 
 ---
 
-## How to use a template
+## How to use one
 
-1. Find the template for your problem type in `templates/`
-2. Copy it to your working folder as `CLAUDE.md`
-3. Fill in every section — delete nothing, leave no placeholder blank
-4. Open Claude Code in that folder. Context loads automatically.
-5. Start working, not explaining.
+1. Copy the template for your problem type into your working folder as `CLAUDE.md`
+2. Fill in every section
+3. Open Claude Code in that folder — it picks up the file automatically
+4. Start working
 
-If you use Claude Code's `/pm-brief` skill (see `SKILL.md`), it will walk you through the fill-in interactively and flag gaps before work begins.
+If you use claude.ai instead of Claude Code: paste the file contents as your first message.
+
+---
+
+## Tools you need
+
+Claude Code, a text editor, and this repo. That is it.
+
+| Tool | Why |
+|------|-----|
+| Claude Code (CLI) | Loads CLAUDE.md automatically at session start |
+| VS Code or Cursor | Edit the brief and your work in the same window |
+| Obsidian (optional) | Good place to keep running notes about your product and users that you pull from when filling in a brief |
 
 ---
 
 ## Contributing
 
-Add a template by opening a PR with:
-- The template file in `templates/`
-- A row in the table above
-- At least one example of a filled-in brief (as a comment block at the bottom of the template)
+Add a template by opening a PR with the file in `templates/`, a row in the table above, and at least one filled-in example in a comment block at the bottom of the template.
 
 ---
 
 ## License
 
-MIT. Copy, fork, modify, redistribute. No attribution required.
+MIT.
