@@ -4,6 +4,10 @@ Templates for PMs working with Claude. Before Claude helps you write a spec, ran
 
 ---
 
+![Without vs with templates](assets/comparison.svg)
+
+---
+
 ## What this is
 
 Five CLAUDE.md templates, one per common PM problem type. You copy the right one into your project folder, fill it in, and Claude loads it automatically when you start a session.
