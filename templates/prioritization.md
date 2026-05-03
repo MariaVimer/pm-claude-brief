@@ -4,6 +4,13 @@
 
 ---
 
+## Connected to
+
+**Problem clarity audit**: [link or file — run this first for any item you are not confident you understand]
+**Post-launch review**: [leave blank now, fill in when you review the outcome of the top items]
+
+---
+
 ## The hypothesis
 
 For each item under serious consideration, state the belief driving it:

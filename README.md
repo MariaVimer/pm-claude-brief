@@ -20,17 +20,37 @@ The goal is to stop building things on a hunch, because someone important asked,
 
 ## Templates
 
+**Before you build**
+
 | Template | Use when |
 |----------|---------|
+| [`templates/problem-clarity.md`](templates/problem-clarity.md) | Auditing how well you actually understand a problem before committing to a direction |
 | [`templates/discovery.md`](templates/discovery.md) | User research, problem framing, opportunity sizing |
+| [`templates/feature-validation.md`](templates/feature-validation.md) | Testing whether a feature idea is worth building |
+| [`templates/competitive-response.md`](templates/competitive-response.md) | Figuring out whether a competitor move is a real threat and what to do about it |
+
+**Deciding what to build**
+
+| Template | Use when |
+|----------|---------|
 | [`templates/prioritization.md`](templates/prioritization.md) | Ranking features, backlog tradeoffs, roadmap decisions |
-| [`templates/gtm.md`](templates/gtm.md) | Launch planning, positioning, pricing, enablement |
 | [`templates/build-vs-buy.md`](templates/build-vs-buy.md) | Vendor evaluation, make-or-buy decisions |
 | [`templates/roadmap.md`](templates/roadmap.md) | Roadmap narrative, stakeholder alignment, planning cycles |
-| [`templates/prd.md`](templates/prd.md) | Writing a product requirements document |
-| [`templates/feature-validation.md`](templates/feature-validation.md) | Testing whether a feature idea is worth building |
-| [`templates/churn-diagnosis.md`](templates/churn-diagnosis.md) | Figuring out why customers are leaving |
 | [`templates/stakeholder-alignment.md`](templates/stakeholder-alignment.md) | Getting multiple stakeholders to a decision |
+
+**Building it**
+
+| Template | Use when |
+|----------|---------|
+| [`templates/prd.md`](templates/prd.md) | Writing a product requirements document |
+| [`templates/gtm.md`](templates/gtm.md) | Launch planning, positioning, pricing, enablement |
+
+**After you ship**
+
+| Template | Use when |
+|----------|---------|
+| [`templates/post-launch-review.md`](templates/post-launch-review.md) | Reviewing whether the hypothesis was right and what you learned |
+| [`templates/churn-diagnosis.md`](templates/churn-diagnosis.md) | Figuring out why customers are leaving |
 
 ---
 

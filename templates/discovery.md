@@ -4,6 +4,13 @@
 
 ---
 
+## Connected to
+
+**Problem clarity audit**: [run this first if you are unsure how well you already understand the problem]
+**PRD**: [link here once discovery informs a build decision]
+
+---
+
 ## The hypothesis
 
 State your core assumption as a testable belief, not a conclusion.

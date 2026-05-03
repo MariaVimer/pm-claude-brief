@@ -4,6 +4,13 @@
 
 ---
 
+## Connected to
+
+**Problem clarity audit**: [link or file — run this first if you have not]
+**Post-launch review**: [leave blank now, fill in when you run the review after launch]
+
+---
+
 ## The hypothesis
 
 > "We believe [audience] cannot [do X] today because [reason]. Solving this will result in [outcome]. We know this because [evidence]."
