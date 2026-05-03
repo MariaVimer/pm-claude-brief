@@ -27,6 +27,10 @@ The goal is to stop building things on a hunch, because someone important asked,
 | [`templates/gtm.md`](templates/gtm.md) | Launch planning, positioning, pricing, enablement |
 | [`templates/build-vs-buy.md`](templates/build-vs-buy.md) | Vendor evaluation, make-or-buy decisions |
 | [`templates/roadmap.md`](templates/roadmap.md) | Roadmap narrative, stakeholder alignment, planning cycles |
+| [`templates/prd.md`](templates/prd.md) | Writing a product requirements document |
+| [`templates/feature-validation.md`](templates/feature-validation.md) | Testing whether a feature idea is worth building |
+| [`templates/churn-diagnosis.md`](templates/churn-diagnosis.md) | Figuring out why customers are leaving |
+| [`templates/stakeholder-alignment.md`](templates/stakeholder-alignment.md) | Getting multiple stakeholders to a decision |
 
 ---
 
