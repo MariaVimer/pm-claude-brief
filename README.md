@@ -10,7 +10,7 @@ Five CLAUDE.md templates, one per common PM problem type. You copy the right one
 
 The templates ask harder questions than most briefs do: what is your hypothesis, what evidence do you have, who specifically has this problem, what does success look like in 90 days. If your answers are thin, Claude will say so before doing any work.
 
-The goal is to stop building things because someone important asked for them and start building things because there is a real problem worth solving.
+The goal is to stop building things on a hunch, because someone important asked, or because you can. And start building things because there is a real problem worth solving.
 
 ---
 
